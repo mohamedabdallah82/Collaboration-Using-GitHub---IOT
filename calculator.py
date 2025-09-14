@@ -13,6 +13,6 @@ match operation:
     case '-':
         print(number1 -number2)
     case '*':
-        print("mul")
+        print(number1 * number2)
     case '/':
         print("dev")
