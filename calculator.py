@@ -1,10 +1,15 @@
 number1 = int(input("Please Enter First Number: "))
 number2 = int(input("Please Enter Second Number: "))
 operation = input("Please Enter Operation: ")
+result = 0
+
+def add():
+	result = number1 + number2
 
 match operation:
     case '+':
-        print("add")
+        add()
+	print(result)
     case '-':
         print("sub")
     case '*':
