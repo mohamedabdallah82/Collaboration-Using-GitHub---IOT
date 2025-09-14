@@ -4,7 +4,7 @@ operation = input("Please Enter Operation: ")
 result = 0
 
 def add():
-	result = number1 + number2
+    return number1 + number2
 
 def divide(a, b):
     if b == 0:
@@ -13,8 +13,8 @@ def divide(a, b):
 
 match operation:
     case '+':
-        add()
-	print(result)
+        result = add()
+        print(result)
     case '-':
         print(number1 -number2)
     case '*':
