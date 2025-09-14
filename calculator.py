@@ -11,7 +11,7 @@ match operation:
         add()
 	print(result)
     case '-':
-        print("sub")
+        print(number1 -number2)
     case '*':
         print("mul")
     case '/':
